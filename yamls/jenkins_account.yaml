@@ -1,0 +1,6 @@
+# kubectl create -f jenkins_role.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: jenkins
+  namespace: default
